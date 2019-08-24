@@ -1,0 +1,46 @@
+.circleBackground,
+.circleProgress {
+  fill: none;
+}
+
+.circleBackground {
+  stroke: #ddd;
+}
+
+.circleProgress {
+  stroke: #00bbbb;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: all 1s linear;
+}
+
+.circleProgress.reset {
+  transition: none;
+}
+
+.barWrapper {
+  width: 100%;
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  flex: 1;
+  position: relative;
+  background-color: #f1f4f3;
+  border-radius: 2.5px;
+  display: flex;
+}
+
+.barActive {
+  height: 100%;
+  border-radius: 2.5px;
+}
+
+.percentage {
+  flex: 0 0 30px;
+  text-align: right;
+  line-height: 1;
+}

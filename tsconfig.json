@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "build",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "build",
+    "node_modules",
+    "stories",
+    "src/**/*.test.tsx",
+    "src/**/build"
+  ]
+}

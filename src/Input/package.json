@@ -1,0 +1,21 @@
+{
+  "name": "@alfredvaa/react-components-boilerplate.input",
+  "version": "1.0.16",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "types": "build/index.d.ts",
+  "repository": "git://github.com/alfredvaa/react-components.git",
+  "files": [
+    "build"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
