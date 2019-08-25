@@ -1,6 +1,6 @@
 {
   "name": "@alfredvaa/react-components-boilerplate.button",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "types": "build/index.d.ts",
